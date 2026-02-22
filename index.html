@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра "Угадай число" с рекордами</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Игра "Угадай число"</h1>
+
+        
+        <div id="setup-section">
+            <p>Введите ваше имя, чтобы начать:</p>
+            <input type="text" id="player-name-input" placeholder="Имя игрока">
+            <button onclick="startGame()">Начать игру</button>
+        </div>
+
+        
+        <div id="game-section" class="hidden">
+            <p id="welcome-msg"></p>
+            <p>Я загадал число от 1 до 100. Попробуй угадать!</p>
+            
+            <div class="input-group">
+                <input type="number" id="guess-input" placeholder="Ваше число">
+                <button onclick="makeGuess()">Проверить</button>
+            </div>
+
+            <p id="hint-msg" class="hint"></p>
+            <p>Попыток: <span id="attempt-count">0</span></p>
+            <button id="reset-btn" class="hidden" onclick="resetGame()">Начать заново</button>
+        </div>
+
+        
+        <div class="records-section">
+            <h2>Топ-10 рекордов</h2>
+            <table id="records-table">
+                <thead>
+                    <tr>
+                        <th>Место</th>
+                        <th>Имя</th>
+                        <th>Попытки</th>
+                    </tr>
+                </thead>
+                <tbody id="records-body">
+                    
+                </tbody>
+            </table>
+            <button onclick="clearRecords()" class="clear-btn">Очистить рекорды</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
