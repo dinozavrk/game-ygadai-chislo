@@ -3,6 +3,7 @@ let attempts = 0;
 let playerName = "";
 
 //Очистки логики для нового раунда
+
 function resetGameLogic() {
 
     secretNumber = Math.floor(Math.random() * 100) + 1;
@@ -16,6 +17,7 @@ function resetGameLogic() {
 
 
 //Обработка попытки угадать
+
 function makeGuess() {
 
     const input = document.getElementById('guess-input');
@@ -47,6 +49,7 @@ function makeGuess() {
 
 
 //завершение игры
+
 function endGame() {
 
     document.getElementById('guess-input').disabled = true;
@@ -59,10 +62,11 @@ function endGame() {
 
 
 //обновление текста в интерфейсе
+
 function updateUI(hint, att) {
 
     document.getElementById('hint-msg').innerText = hint;
     document.getElementById('attempt-count').innerText = att;
-    
+
 }
 
