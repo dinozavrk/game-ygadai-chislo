@@ -12,7 +12,7 @@
 Для того чтобы скопировать проект зайди в программу для программирования, к примеру "Visual Studio Code", зайди в терминал и введи команду 
 
 
-`git clone https://github.com/dinozavrk/Web_project.git`
+`git clone git@github.com:dinozavrk/game-ygaday-chislo.git`
 
 ## Дополнительно
 Еще больше классных проектов в моем гитхабе: [dinozavrk](https://github.com/dinozavrk)
