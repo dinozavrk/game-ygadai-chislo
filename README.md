@@ -7,6 +7,7 @@
 1. Скачайте файлы проекта или клонируйте репозиторий командой
    
 ```git clone git@github.com:dinozavrk/game-ygadai-chislo.git```
+
 3. Откройте файл index.html в любом современном браузере (Chrome, Firefox, Edge, Safari).
 4. Для сброса таблицы рекордов можно воспользоваться инструментами разработчика в браузере (Application -> Local Storage -> Clear).
 
