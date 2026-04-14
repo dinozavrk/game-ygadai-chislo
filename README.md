@@ -35,7 +35,7 @@ git clone git@github.com:dinozavrk/game-ygadai-chislo.git
  📂 Структура проекта
 
 ```
-├── index.html      # Основная разметка страницы
+├── index.html      # Основная разметка страницы 
 ├── css/
 │   └── style.css   # Стили оформления интерфейса
 ├── js/
